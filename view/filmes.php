@@ -10,11 +10,11 @@
     <h1>Filmes Populares</h1>
     <hr>
 
-    <div id="filmes-conteiner">
+    <div id="filmes-container">
 
         <?php
 
-            foreach ($filmes as $filmes) {
+            foreach ($filmes as $filme) {
 
                     echo "<div class='filme'>";
                     echo "<h2>" . $filme['titulo'] . "</h2>";
