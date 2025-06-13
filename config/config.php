@@ -11,7 +11,7 @@
 
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        // echo "Conexão realizada com sucesso!";
+        //echo "Conexão realizada com sucesso!";
 
     }
 
